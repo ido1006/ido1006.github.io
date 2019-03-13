@@ -1,0 +1,11 @@
+@font-face {
+
+}
+html, body {
+  width: 1000px;
+  margin: 0 auto;
+  color: #000000;
+  font-family: 'Meiryo';
+  background: #ffffe0;
+  scroll-behavior: smooth;
+}
