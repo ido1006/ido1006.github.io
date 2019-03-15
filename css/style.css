@@ -35,7 +35,7 @@ header {
 
 header .icon{
   width: 64px; height: 64px;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 header ul {
@@ -52,6 +52,17 @@ header ul li{
 
 header ul li:nth-of-type(2){
   margin-left: auto;
+}
+
+#entrance {
+  padding: 50px 0 50px 0;
+}
+
+#entrance .greeting {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px 50px 50px 50px;
+  background: rgba(245,222,179,0.60);
 }
 
 h2{
