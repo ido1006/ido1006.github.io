@@ -5,7 +5,7 @@ html, body {
   width: 1000px;
   color: #000000;
   font-family: 'Meiryo';
-  background: #ffffe0;
+  background: #fff47f;
   scroll-behavior: smooth;
   margin: 0 auto;
 }
@@ -22,6 +22,14 @@ ul{
   list-style: none;
 }
 
+.float_left{
+  float: left;
+}
+
+.float_right{
+  float: right;
+}
+
 header {
   position: sticky;
   position: -webkit-sticky;
@@ -30,7 +38,7 @@ header {
   padding: 0;
   top: 0;
   z-index: 1;
-  background: #fffabc;
+  background: #fffacd;
 }
 
 header .icon{
@@ -55,16 +63,28 @@ header ul li:nth-of-type(2){
 }
 
 #entrance {
-  padding: 50px 0 50px 0;
+  padding: 50px 0 20px 0;
+  background: url("../img/bg_desk.JPG");
+  background-size: cover;
 }
 
-#entrance .greeting {
+#entrance .content {
   width: 80%;
-  margin: 0 auto;
-  padding: 15px 50px 50px 50px;
-  background: rgba(245,222,179,0.60);
+  margin: 0 auto 10px 0;
+  padding: 20px 50px 20px 50px;
+  background: rgba(250,250,220,0.80);
 }
 
+#profile {
+  padding: 10px 0 20px 0;
+  overflow: hidden;
+  background: url("../img/bg_stripe.png") repeat;
+}
+
+#works {
+  padding: 10px 0 20px 0;
+  background: url("../img/bg_stripe.png") repeat;
+}
 h2{
   margin: 0;
 }
